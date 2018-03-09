@@ -1,0 +1,13 @@
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index 663d7e01f..94177dd7e 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -723,7 +723,7 @@ if(UNIX)
+     elseif(EMSCRIPTEN)
+       # no need to link to system libs with emscripten
+     else()
+-      set(OPENCV_LINKER_LIBS ${OPENCV_LINKER_LIBS} dl m pthread rt)
++      set(OPENCV_LINKER_LIBS ${OPENCV_LINKER_LIBS} dl m pthread rt gcc_s gcc)
+     endif()
+   else()
+     set(HAVE_PTHREAD 1)
