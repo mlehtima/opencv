@@ -1,5 +1,5 @@
 Name:          opencv
-Version:       4.5.3
+Version:       4.8.1
 Release:       1
 Summary:       Open Source Computer Vision Library
 URL:           http://opencv.org
